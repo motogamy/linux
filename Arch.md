@@ -10,7 +10,7 @@ sudo systemctl enable paccache.timer
 # KVM QEMU VIRT Manager - Virtualization
 
 Refer to the below link: https://gist.github.com/tatumroaquin/c6464e1ccaef40fd098a4f31db61ab22
-> ## Internet not working for guest
+> ## Internet not working for guest if UFW installed
 > Edit `/etc/libvirt/network.conf` and enable firewall_backend = "iptables"
 
 # Pacman Commands
